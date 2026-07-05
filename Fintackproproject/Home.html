@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Home.css">
+</head>
+<body>
+    <main>
+      
+        <nav>
+          <img id="mode" src="./imges/moon.png" alt="" srcset="">
+          <p>sunil</p>
+          <button type="button">Logout</button>
+        </nav>
+         
+        <div id="sidebar" class="menu">
+
+            <div id="logo">
+                <span><img src="imges/layers.png" alt=""></span>
+                <div>
+                    <h3>FinTrack Pro</h3>
+                    <p>Enterprise Finance</p>
+                </div>
+            </div>
+            <div id="menu-function">
+             <button id="Dashboard">
+                <img src="/imges/statisctics.png" alt="" srcset="">
+                <h3>Dashboard</h3>
+            </button>
+             <button id="Settings">
+                <img src="/imges/setting.png" alt="" srcset="">
+                <h3>Settings</h3>
+            </button>
+            </div>
+
+        </div>
+
+        <section id="main-center">
+
+        <div class="maintop">
+            <h1>Financial Overview</h1>
+            <p>Real-time tracking application</p>
+        </div>
+        
+        <div class="currency">
+         
+            <div id="Current-Balance" class="box">
+            <div>
+
+            <div class="iconbox">
+                <i class="fa-solid fa-building-columns" style="color: rgb(26, 9, 255);"></i>
+            </div>
+                <p class="box-pera">Current Balance</p>
+                <h2 id="current-balance">¥0.00</h2>
+            </div>
+
+            </div>
+
+            <div id="Total-Income" class="box">
+                <div>
+                <div class="iconbox">
+                    <i class="fa-solid fa-arrow-trend-up" style="color: rgb(30, 179, 30);"></i>
+                </div>
+                <p class="box-pera">Total Income</p>
+                <h2  style="color: green;"  id="current-balance">¥0.00</h2>
+                </div>
+
+            </div>
+
+            <div id="Total-Expense" class="box">
+
+                <div>
+                <div class="iconbox">
+                    <i class="fa-solid fa-arrow-trend-down" style="color: rgb(255, 0, 0);"></i>
+                </div>
+                <p class="box-pera">Total Expense</p>
+                <h2 style="color: rgb(252, 0, 0);" id="current-balance">¥0.00</h2>
+            </div>  
+
+            </div>
+
+            <div id="Total-Transactions" class="box">
+
+                <div>
+                <div class="iconbox">
+                    <i class="fa-solid fa-piggy-bank" style="color: rgb(0, 39, 255);"></i>
+                </div>
+                <p class="box-pera">Total Transactions</p>
+                <h2 id="current-balance">0</h2>
+            </div>
+
+            </div>
+
+        </div>
+        </section>
+    </main>
+    <script src="./Home.js"></script>
+</body>
+</html>
